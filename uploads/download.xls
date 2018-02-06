@@ -1,0 +1,293 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>ReportFile</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table>
+        <thead>
+         
+          <tr style="padding-right:14px;">
+          <th>Date</th>
+          <th style="width:120px;">Description</th>
+          <th>Location</th>
+          <th>Start</th>
+          <th>End</th>
+          <th>Duration</th>
+         </tr>
+         </thead>
+         
+         <tbody>
+
+         <!-- ngRepeat: data in reportData --><!-- ngIf: isBasedOnSearch --><tr ng-repeat="data in reportData" ng-if="isBasedOnSearch" style="background-color:#e5f1f4;padding-right:px;" id="table2" class="ng-scope">
+        
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">19-12-2016</td>
+          <td style="width:120px;" ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">BPS-26</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">A09</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">22:11:02</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">02:00:02</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">03:49:00</td>
+
+        </tr><!-- end ngIf: isBasedOnSearch --><!-- end ngRepeat: data in reportData --><!-- ngIf: isBasedOnSearch --><tr ng-repeat="data in reportData" ng-if="isBasedOnSearch" style="background-color:#e5f1f4;padding-right:px;" id="table2" class="ng-scope">
+        
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">20-12-2016</td>
+          <td style="width:120px;" ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">BPS-26</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">A09</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">02:02:05</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">04:34:58</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">02:32:53</td>
+
+        </tr><!-- end ngIf: isBasedOnSearch --><!-- end ngRepeat: data in reportData --><!-- ngIf: isBasedOnSearch --><tr ng-repeat="data in reportData" ng-if="isBasedOnSearch" style="background-color:#e5f1f4;padding-right:px;" id="table2" class="ng-scope">
+        
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">20-12-2016</td>
+          <td style="width: 120px; border-bottom: 1px solid black;" ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">BPS-26</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">A09</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">04:37:05</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">08:00:30</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">03:23:25</td>
+
+        </tr><!-- end ngIf: isBasedOnSearch --><!-- end ngRepeat: data in reportData --><!-- ngIf: isBasedOnSearch --><tr ng-repeat="data in reportData" ng-if="isBasedOnSearch" style="background-color:#e5f1f4;padding-right:px;" id="table2" class="ng-scope">
+        
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">20-12-2016</td>
+          <td style="width: 120px; border-bottom: 1px solid black;" ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">BPS-26</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">A14</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">08:02:29</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">08:09:25</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">06:56</td>
+
+        </tr><!-- end ngIf: isBasedOnSearch --><!-- end ngRepeat: data in reportData --><!-- ngIf: isBasedOnSearch --><tr ng-repeat="data in reportData" ng-if="isBasedOnSearch" style="background-color:#e5f1f4;padding-right:px;" id="table2" class="ng-scope">
+        
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">20-12-2016</td>
+          <td style="width: 120px; border-bottom: 1px solid black;" ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">BPS-26</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">A12</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">08:06:56</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">08:27:55</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">20:59</td>
+
+        </tr><!-- end ngIf: isBasedOnSearch --><!-- end ngRepeat: data in reportData --><!-- ngIf: isBasedOnSearch --><tr ng-repeat="data in reportData" ng-if="isBasedOnSearch" style="background-color:#e5f1f4;padding-right:px;" id="table2" class="ng-scope">
+        
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">20-12-2016</td>
+          <td style="width:120px;" ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">BPS-26</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">A14</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">08:18:37</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">08:24:19</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">05:42</td>
+
+        </tr><!-- end ngIf: isBasedOnSearch --><!-- end ngRepeat: data in reportData --><!-- ngIf: isBasedOnSearch --><tr ng-repeat="data in reportData" ng-if="isBasedOnSearch" style="background-color:#e5f1f4;padding-right:px;" id="table2" class="ng-scope">
+        
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">20-12-2016</td>
+          <td style="width:120px;" ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">BPS-26</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">A14</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">08:27:25</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">09:25:55</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">58:30</td>
+
+        </tr><!-- end ngIf: isBasedOnSearch --><!-- end ngRepeat: data in reportData --><!-- ngIf: isBasedOnSearch --><tr ng-repeat="data in reportData" ng-if="isBasedOnSearch" style="background-color:#e5f1f4;padding-right:px;" id="table2" class="ng-scope">
+        
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">20-12-2016</td>
+          <td style="width: 120px; border-bottom: 1px solid black;" ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">BPS-26</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">A14</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">09:28:01</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">09:29:19</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">01:18</td>
+
+        </tr><!-- end ngIf: isBasedOnSearch --><!-- end ngRepeat: data in reportData --><!-- ngIf: isBasedOnSearch --><tr ng-repeat="data in reportData" ng-if="isBasedOnSearch" style="background-color:#e5f1f4;padding-right:px;" id="table2" class="ng-scope">
+        
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">20-12-2016</td>
+          <td style="width: 120px; border-bottom: 1px solid black;" ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">BPS-26</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">A12</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">09:29:25</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">09:30:31</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">01:06</td>
+
+        </tr><!-- end ngIf: isBasedOnSearch --><!-- end ngRepeat: data in reportData --><!-- ngIf: isBasedOnSearch --><tr ng-repeat="data in reportData" ng-if="isBasedOnSearch" style="background-color:#e5f1f4;padding-right:px;" id="table2" class="ng-scope">
+        
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">20-12-2016</td>
+          <td style="width: 120px; border-bottom: 1px solid black;" ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">BPS-26</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">A14</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">09:30:37</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">09:34:07</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">03:30</td>
+
+        </tr><!-- end ngIf: isBasedOnSearch --><!-- end ngRepeat: data in reportData --><!-- ngIf: isBasedOnSearch --><tr ng-repeat="data in reportData" ng-if="isBasedOnSearch" style="background-color:#e5f1f4;padding-right:px;" id="table2" class="ng-scope">
+        
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">20-12-2016</td>
+          <td style="width: 120px; border-bottom: 1px solid black;" ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">BPS-26</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">A12</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">09:34:13</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">09:41:30</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">07:17</td>
+
+        </tr><!-- end ngIf: isBasedOnSearch --><!-- end ngRepeat: data in reportData --><!-- ngIf: isBasedOnSearch --><tr ng-repeat="data in reportData" ng-if="isBasedOnSearch" style="background-color:#e5f1f4;padding-right:px;" id="table2" class="ng-scope">
+        
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">20-12-2016</td>
+          <td style="width: 120px; border-bottom: 1px solid black;" ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">BPS-26</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">A14</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">09:41:36</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">09:49:01</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">07:25</td>
+
+        </tr><!-- end ngIf: isBasedOnSearch --><!-- end ngRepeat: data in reportData --><!-- ngIf: isBasedOnSearch --><tr ng-repeat="data in reportData" ng-if="isBasedOnSearch" style="background-color:#e5f1f4;padding-right:px;" id="table2" class="ng-scope">
+        
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">20-12-2016</td>
+          <td style="width:120px;" ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">BPS-26</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">A12</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">09:46:39</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">09:47:50</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">01:11</td>
+
+        </tr><!-- end ngIf: isBasedOnSearch --><!-- end ngRepeat: data in reportData --><!-- ngIf: isBasedOnSearch --><tr ng-repeat="data in reportData" ng-if="isBasedOnSearch" style="background-color:#e5f1f4;padding-right:px;" id="table2" class="ng-scope">
+        
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">20-12-2016</td>
+          <td style="width: 120px; border-bottom: 1px solid black;" ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">BPS-26</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">A12</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">09:49:07</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">10:05:59</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">16:52</td>
+
+        </tr><!-- end ngIf: isBasedOnSearch --><!-- end ngRepeat: data in reportData --><!-- ngIf: isBasedOnSearch --><tr ng-repeat="data in reportData" ng-if="isBasedOnSearch" style="background-color:#e5f1f4;padding-right:px;" id="table2" class="ng-scope">
+        
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">20-12-2016</td>
+          <td style="width:120px;" ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">BPS-26</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">A14</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">09:50:55</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">09:52:55</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">02:00</td>
+
+        </tr><!-- end ngIf: isBasedOnSearch --><!-- end ngRepeat: data in reportData --><!-- ngIf: isBasedOnSearch --><tr ng-repeat="data in reportData" ng-if="isBasedOnSearch" style="background-color:#e5f1f4;padding-right:px;" id="table2" class="ng-scope">
+        
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">20-12-2016</td>
+          <td style="width:120px;" ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">BPS-26</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">A14</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">10:02:59</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">10:03:59</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">01:00</td>
+
+        </tr><!-- end ngIf: isBasedOnSearch --><!-- end ngRepeat: data in reportData --><!-- ngIf: isBasedOnSearch --><tr ng-repeat="data in reportData" ng-if="isBasedOnSearch" style="background-color:#e5f1f4;padding-right:px;" id="table2" class="ng-scope">
+        
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">20-12-2016</td>
+          <td style="width: 120px; border-bottom: 1px solid black;" ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">BPS-26</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">A14</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">10:06:05</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">10:53:30</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">47:25</td>
+
+        </tr><!-- end ngIf: isBasedOnSearch --><!-- end ngRepeat: data in reportData --><!-- ngIf: isBasedOnSearch --><tr ng-repeat="data in reportData" ng-if="isBasedOnSearch" style="background-color:#e5f1f4;padding-right:px;" id="table2" class="ng-scope">
+        
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">20-12-2016</td>
+          <td style="width: 120px; border-bottom: 1px solid black;" ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">BPS-26</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">A12</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">10:43:35</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">10:45:34</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">01:59</td>
+
+        </tr><!-- end ngIf: isBasedOnSearch --><!-- end ngRepeat: data in reportData --><!-- ngIf: isBasedOnSearch --><tr ng-repeat="data in reportData" ng-if="isBasedOnSearch" style="background-color:#e5f1f4;padding-right:px;" id="table2" class="ng-scope">
+        
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">20-12-2016</td>
+          <td style="width: 120px; border-bottom: 1px solid black;" ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">BPS-26</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">B17</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">10:56:24</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">11:45:25</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">49:01</td>
+
+        </tr><!-- end ngIf: isBasedOnSearch --><!-- end ngRepeat: data in reportData --><!-- ngIf: isBasedOnSearch --><tr ng-repeat="data in reportData" ng-if="isBasedOnSearch" style="background-color:#e5f1f4;padding-right:px;" id="table2" class="ng-scope">
+        
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">20-12-2016</td>
+          <td style="width: 120px; border-bottom: 1px solid black;" ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">BPS-26</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">A15</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">11:46:19</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">12:43:41</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">57:22</td>
+
+        </tr><!-- end ngIf: isBasedOnSearch --><!-- end ngRepeat: data in reportData --><!-- ngIf: isBasedOnSearch --><tr ng-repeat="data in reportData" ng-if="isBasedOnSearch" style="background-color:#e5f1f4;padding-right:px;" id="table2" class="ng-scope">
+        
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">20-12-2016</td>
+          <td style="width: 120px; border-bottom: 1px solid black;" ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">BPS-26</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">B17</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">12:41:47</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">12:47:11</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">05:24</td>
+
+        </tr><!-- end ngIf: isBasedOnSearch --><!-- end ngRepeat: data in reportData --><!-- ngIf: isBasedOnSearch --><tr ng-repeat="data in reportData" ng-if="isBasedOnSearch" style="background-color:#e5f1f4;padding-right:px;" id="table2" class="ng-scope">
+        
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">20-12-2016</td>
+          <td style="width: 120px; border-bottom: 1px solid black;" ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">BPS-26</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">A15</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">12:47:17</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">12:49:41</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">02:24</td>
+
+        </tr><!-- end ngIf: isBasedOnSearch --><!-- end ngRepeat: data in reportData --><!-- ngIf: isBasedOnSearch --><tr ng-repeat="data in reportData" ng-if="isBasedOnSearch" style="background-color:#e5f1f4;padding-right:px;" id="table2" class="ng-scope">
+        
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">20-12-2016</td>
+          <td style="width:120px;" ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">BPS-26</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">B17</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">12:49:47</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">12:56:59</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">07:12</td>
+
+        </tr><!-- end ngIf: isBasedOnSearch --><!-- end ngRepeat: data in reportData --><!-- ngIf: isBasedOnSearch --><tr ng-repeat="data in reportData" ng-if="isBasedOnSearch" style="background-color:#e5f1f4;padding-right:px;" id="table2" class="ng-scope">
+        
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">20-12-2016</td>
+          <td style="width: 120px; border-bottom: 1px solid black;" ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">BPS-26</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">B17</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">12:59:05</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">13:28:21</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">29:16</td>
+
+        </tr><!-- end ngIf: isBasedOnSearch --><!-- end ngRepeat: data in reportData --><!-- ngIf: isBasedOnSearch --><tr ng-repeat="data in reportData" ng-if="isBasedOnSearch" style="background-color:#e5f1f4;padding-right:px;" id="table2" class="ng-scope">
+        
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">20-12-2016</td>
+          <td style="width: 120px; border-bottom: 1px solid black;" ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">BPS-26</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">B22</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">13:29:32</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">13:36:34</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">07:02</td>
+
+        </tr><!-- end ngIf: isBasedOnSearch --><!-- end ngRepeat: data in reportData --><!-- ngIf: isBasedOnSearch --><tr ng-repeat="data in reportData" ng-if="isBasedOnSearch" style="background-color:#e5f1f4;padding-right:px;" id="table2" class="ng-scope">
+        
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">20-12-2016</td>
+          <td style="width: 120px; border-bottom: 1px solid black;" ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">BPS-26</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">B18</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">13:37:45</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">14:21:03</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">43:18</td>
+
+        </tr><!-- end ngIf: isBasedOnSearch --><!-- end ngRepeat: data in reportData --><!-- ngIf: isBasedOnSearch --><tr ng-repeat="data in reportData" ng-if="isBasedOnSearch" style="background-color:#e5f1f4;padding-right:px;" id="table2" class="ng-scope">
+        
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">20-12-2016</td>
+          <td style="width: 120px; border-bottom: 1px solid black;" ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">BPS-26</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">B21</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">14:25:10</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">14:35:13</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding" style="border-bottom: 1px solid black;">10:03</td>
+
+        </tr><!-- end ngIf: isBasedOnSearch --><!-- end ngRepeat: data in reportData --><!-- ngIf: isBasedOnSearch --><tr ng-repeat="data in reportData" ng-if="isBasedOnSearch" style="background-color:#e5f1f4;padding-right:px;" id="table2" class="ng-scope">
+        
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">20-12-2016</td>
+          <td style="width:120px;" ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">BPS-26</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">B19</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">14:35:19</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">14:36:55</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">01:36</td>
+
+        </tr><!-- end ngIf: isBasedOnSearch --><!-- end ngRepeat: data in reportData --><!-- ngIf: isBasedOnSearch --><tr ng-repeat="data in reportData" ng-if="isBasedOnSearch" style="background-color:#e5f1f4;padding-right:px;" id="table2" class="ng-scope">
+        
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">20-12-2016</td>
+          <td style="width:120px;" ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">BPS-26</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">B19</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">14:38:11</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">17:24:55</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">02:46:44</td>
+
+        </tr><!-- end ngIf: isBasedOnSearch --><!-- end ngRepeat: data in reportData --><!-- ngIf: isBasedOnSearch --><tr ng-repeat="data in reportData" ng-if="isBasedOnSearch" style="background-color:#e5f1f4;padding-right:px;" id="table2" class="ng-scope">
+        
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">20-12-2016</td>
+          <td style="width:120px;" ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">BPS-26</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">B19</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">16:19:05</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">16:25:56</td>
+          <td ng-style="data.record === 'seprt'? { 'border-bottom':'1px solid black'} : {}" class="ng-binding">06:51</td>
+
+        </tr><!-- end ngIf: isBasedOnSearch --><!-- end ngRepeat: data in reportData -->
+        <!-- <tr ng-repeat-end ng-if="data.record === 'seprt'" style="background-color:black;width:98%" height="2px;"></tr> -->
+
+
+        <!-- ngRepeat: data in mappedResultViaDate -->
+         <!-- <tr ng-repeat-end ng-if="data.record === 'seprt'" style="background-color:black;width:98%" height="2px;"></tr> -->
+         </tbody>
+        </table></body></html>
